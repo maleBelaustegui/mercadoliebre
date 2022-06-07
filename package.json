@@ -1,5 +1,21 @@
 {
+  "name": "mercadoliebre",
+  "version": "1.0.0",
+  "description": "DIGITAL HOUSE.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maleBelaustegui/mercadoliebre.git"
+  },
+
+  "author": "Magdalena Belaustegui",
+  "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.1",
     "express": "^4.18.1"
   }
 }
