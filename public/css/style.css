@@ -16,7 +16,6 @@ colores
   background-color: #ebebeb;
   color: #666;
 }
-
 /* header */
 .main-header {
   background-color: #eac926;
@@ -44,6 +43,7 @@ colores
 }
 
 .main-header .search {
+  position: relative;
   flex-basis: 50%;
   text-align: right;
 }
@@ -55,11 +55,15 @@ colores
   width: 100%;
 }
 .main-header .top-bar button {
+  position: absolute;
   background-color: #fff;
   color: #666;
   border: 0;
-  padding: 5px;
-  margin-left: -27px;
+  right: 5px;
+  top: 6px;
+  font-size: 12px;
+}
+  
 }
 /*  */
 .main-header .hamburguer-button {
